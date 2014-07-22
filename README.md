@@ -5,6 +5,8 @@ Simple STOMP to JMQ server
 
 Example:
 -------
+
+<code>
 // Custom headers to queue server or external service provider.
 $headers = array(
   'CustomHeader1' => 'Custom header value',
@@ -28,10 +30,11 @@ $response = $stomp_client->getResponse($request);
 
 unset($stomp);
 print_r($response);
+</code>
 
 Output:
 -------
-
+<code>
 StompFrame Object
 (
     [command] => MESSAGE
@@ -49,5 +52,6 @@ StompFrame Object
 
     [body] => <?xml version="1.0" encoding="UTF-8"?><ResponseBody></ResponseBody>
 )
+</code>
 
 
