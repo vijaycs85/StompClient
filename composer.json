@@ -1,9 +1,9 @@
 {
-    "name": "vijaycs85/StompClient",
+    "name": "vijaycs85/stomp-client",
     "type": "library",
     "description": "Simple PHP STOMP client to connect to MSQ server",
     "keywords": ["STOMP", "PHP STOMP Client"],
-    "homepage": "https://github.com/andreiashu/silex-stackcors-provider",
+    "homepage": "https://github.com/vijaycs85/stomp-client",
     "license": "MIT",
     "authors": [
         {
